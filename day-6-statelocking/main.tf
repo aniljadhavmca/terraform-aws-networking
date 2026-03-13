@@ -25,3 +25,12 @@ resource "aws_subnet" "name-1" {
     }
   
 }
+
+resource "aws_subnet" "name-2" {
+    vpc_id = aws_vpc.name.id
+    cidr_block = "10.0.2.0/24"
+    tags = {
+        Name = "prod-subnet-1"
+    }
+  
+}
