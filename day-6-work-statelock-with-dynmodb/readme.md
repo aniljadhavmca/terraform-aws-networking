@@ -6,6 +6,12 @@
 ![AWS S3](https://img.shields.io/badge/AWS-S3-FF9900?logo=amazons3&logoColor=white)
 ![AWS DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-4053D6?logo=amazondynamodb&logoColor=white)
 
+# Simple State Locking Diagram
+![Terraform State Locking Simple](https://raw.githubusercontent.com/aniljadhavmca/terraform-aws-networking/main/day-6-work-statelock-with-dynmodb/images/terraform_state_locking_simple.png)
+
+
+# Terraform State Locking Architecture
+![Terraform State Locking Architecture](https://raw.githubusercontent.com/aniljadhavmca/terraform-aws-networking/main/day-6-work-statelock-with-dynmodb/images/terraform_state_locking.png)
 ---
 
 ## 📌 The Problem
