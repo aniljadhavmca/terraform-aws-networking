@@ -1,0 +1,1 @@
+Generate key if not working: ssh-keygen -t rsa -b 4096 -f ~/Desktop/DevOps/Terrafoem-Practice/my-key   
