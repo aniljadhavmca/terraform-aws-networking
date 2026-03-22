@@ -1,0 +1,9 @@
+variable "vpc_id" { type = string }
+variable "private_subnets" { type = list(string) }
+variable "public_subnets" { type = list(string) }
+variable "alb_sg" { type = string }
+variable "frontend_tg" { type = string }
+variable "backend_tg" { type = string }
+variable "ami" { type = string }
+variable "bastion_cidr" { type = string }
+variable "tags" { type = map(string) }
