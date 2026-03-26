@@ -1,0 +1,5 @@
+region="us-east-1"
+profile = "test"
+vpc_cidr="10.1.0.0/16"
+instance_type="t3.small"
+ami="ami-0c02fb55956c7d316"

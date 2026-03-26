@@ -1,0 +1,5 @@
+region="us-east-1"
+profile = "prod"
+vpc_cidr="10.2.0.0/16"
+instance_type="t3.medium"
+ami="ami-0c02fb55956c7d316"
