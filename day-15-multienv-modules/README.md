@@ -36,9 +36,9 @@ AWS_PROFILE=dev terraform plan -var-file="terraform.tfvars"
 AWS_PROFILE=dev terraform apply -var-file="terraform.tfvars"
 
 
-cat << 'EOF' | pbcopy
 ## 📁 Terraform Project Structure
 
+```
 3_Custom_config_terraform-tfvars_each_env/
 ├── provider.tf              # Shared for all environments
 ├── variables.tf             # Shared for all environments
@@ -55,7 +55,7 @@ cat << 'EOF' | pbcopy
 └── prod/
     ├── terraform.tfvars     # Prod-specific values only
     └── terraform.tfstate    # Prod state file (auto-created)
-EOF
+```
 
 ## Method 1: Using Deployment Scripts (Recommended)
 
