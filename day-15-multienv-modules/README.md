@@ -34,24 +34,23 @@ OR (explicit profile)
 AWS_PROFILE=dev terraform plan -var-file="terraform.tfvars"
 AWS_PROFILE=dev terraform apply -var-file="terraform.tfvars"
 
+
 3_Custom_config_terraform-tfvars_each_env/
-├── provider.tf              # Shared for all environments
-├── variables.tf             # Shared for all environments
-├── main.tf                  # Shared for all environments
-├── outputs.tf               # Shared for all environments
-├── deploy.sh                # Bash deployment script
-├── deploy.ps1               # PowerShell deployment script
+├── provider.tf # Shared for all environments
+├── variables.tf # Shared for all environments
+├── main.tf # Shared for all environments
+├── outputs.tf # Shared for all environments
+├── deploy.sh # Bash deployment script
+├── deploy.ps1 # PowerShell deployment script
 ├── dev/
-│   ├── terraform.tfvars     # Dev-specific values only
-│   └── terraform.tfstate    # Dev state file (auto-created)
+│ ├── terraform.tfvars # Dev-specific values only
+│ └── terraform.tfstate # Dev state file (auto-created)
 ├── test/
-│   ├── terraform.tfvars     # Test-specific values only
-│   └── terraform.tfstate    # Test state file (auto-created)
+│ ├── terraform.tfvars # Test-specific values only
+│ └── terraform.tfstate # Test state file (auto-created)
 └── prod/
-    ├── terraform.tfvars     # Prod-specific values only
-    └── terraform.tfstate    # Prod state file (auto-created)
-
-
+├── terraform.tfvars # Prod-specific values only
+└── terraform.tfstate # Prod state file (auto-created)
 
 ## Method 1: Using Deployment Scripts (Recommended)
 
