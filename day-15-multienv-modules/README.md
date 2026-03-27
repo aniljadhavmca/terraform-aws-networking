@@ -34,4 +34,3 @@ OR (explicit profile)
 AWS_PROFILE=dev terraform plan -var-file="terraform.tfvars"
 
 AWS_PROFILE=dev terraform apply -var-file="terraform.tfvars"
-
